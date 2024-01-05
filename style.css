@@ -36,7 +36,7 @@ nav ul li{
     width: 100%; 
     transition: ease .4s;
 }
-nav ul li:hover{
+li:hover{
     color:  rgb(49, 49, 219);
 }
 header{
