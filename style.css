@@ -32,11 +32,11 @@ nav  ul{
 .Point li{
     display: flex;
     justify-content: flex-end;
-    width: 20%; 
+    width: 10%; 
     transition: ease .4s;
     cursor: pointer;
 }
-li:hover{
+ .Point li:hover{
     color:  rgb(49, 49, 219);
 }
 header{
