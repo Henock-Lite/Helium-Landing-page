@@ -29,12 +29,12 @@ nav  ul{
     align-items: center;
     width: 50%;
 }
-nav ul li{
-    cursor: pointer;
+.Point li{
     display: flex;
     justify-content: flex-end;
-    width: 100%; 
+    width: 20%; 
     transition: ease .4s;
+    cursor: pointer;
 }
 li:hover{
     color:  rgb(49, 49, 219);
@@ -110,5 +110,62 @@ footer .image img{
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:409px) {
+    nav ul{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+        width: 100%;
+        color: rgb(49, 49, 219);
+    }
+    .logo p{
+        font-size: 1.5em;
+    }
+    
+}
+@media screen and (max-width:631px) {
+    header{
+        flex-direction: column;
+        height:100%;
+    }
+    .left-part h1{
+        font-size:8.5vw;
+    }
+
+    .left-part h2{
+
+        font-size:5vw;
+        width: 50%;
+    }
+    p{
+        font-size: small;
+        font-weight: bold;
+    }
+    .right-part{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:431px){
+    footer{
+        flex-direction: column;
+        height: 45%;
+        text-align: center;
+    }
+    .left-foot{
+        margin-left:0;
+    }
+    footer .image img{
+        width: 30%;
+    }
+}
+@media screen and (max-width:330px){
+    footer{
+        height:50% ;
+    }
+}
+
+
 
 
